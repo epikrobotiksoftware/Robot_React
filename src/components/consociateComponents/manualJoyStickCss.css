@@ -1,0 +1,48 @@
+.z_joystick_container {
+  /* border: 2px solid red; */
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 33px 383px;
+  /* -220px */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  background:rgba(134, 128, 107, 0.9);
+  
+}
+.container_up{
+  /* border: 2px solid blue; */
+    display: flex;
+    gap: 99px;
+    padding-top: 20px;
+}
+#left-circle{
+  margin-top: 20px;
+}
+#right-circle{
+  margin-top: 20px;
+}
+.joystick_joystick {
+  /* border: 2px solid lightslategray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 10px;
+
+}
+.position_joystick_radius{
+    opacity: .7;
+    padding: 33px;
+    border: 2px solid rgb(52, 82, 8);
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: all 1s ease-in;
+}
+
+
+.container_down{
+    display: flex;
+    padding: 20px 0;
+}

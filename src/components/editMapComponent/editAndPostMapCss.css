@@ -1,0 +1,72 @@
+.editAndpost_container {
+  border: 2px solid blue;
+  /* padding: 28px; */
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 0 8px 16px 0px rgb(201, 201, 201);
+  /* display: flex; */
+  /* justify-content:flex-start; */
+  /* align-items: center; */
+}
+.editAndpost_header {
+  border: 2px solid rgb(0, 255, 0);
+}
+.editAndpost_rotate {
+}
+.editAndpost_icon {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 5px;
+}
+.rotate_icon_divs {
+  border: 1px solid rgb(179, 194, 194);
+  padding: 8px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+}
+
+.editAndpost_reset {
+  background-color: #b61148;
+  color: #fff;
+  font-weight: 500;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.editAndpost_save {
+  background-color: #178817;
+  color: #fff;
+  font-weight: 500;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.editAndpost_card_body {
+  border: 2px solid purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.editAndpost_image_section {
+  border: 2px solid red;
+  margin-left: 8px;
+  width: 1700px;
+  background-color: #f0f0f0;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}

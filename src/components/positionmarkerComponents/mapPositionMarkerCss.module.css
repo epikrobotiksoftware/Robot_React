@@ -1,0 +1,43 @@
+.map-position{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+  width: 800px;
+  height: 700px;
+  /* border: 2px solid orangered; */
+  border-radius: 3%;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.map-button{
+  /* width: 800px; */
+}
+#positionmarkerbutton{
+  background-color: #0b4686;
+  color:white;
+  transition-duration: 0.4s;
+  /* float: left; */
+  /* margin-top:-20%; */
+  /* margin-left:25%; */
+  width: 55%;
+  /* height:55px; */
+  border-radius: 10px;
+  /* border: 2px solid blueviolet; */
+}
+#positionmarkerbutton:focus{
+  background-color: #2c7caa;
+  color: white;
+}
+#labelpositionmarker{
+  /* float: left; */
+  /* margin-top:-8%; */
+  /* margin-left:135%; */
+  width: 55%;
+  /* height:55px; */
+  color: white;
+
+}
+
+ 

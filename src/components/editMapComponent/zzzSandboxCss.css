@@ -1,0 +1,17 @@
+.zzzSandbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-top:150px;
+    gap:50px
+}
+.choosefile{
+
+}
+.imageneImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

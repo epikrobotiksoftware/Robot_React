@@ -1,0 +1,175 @@
+.container4 {
+  /* background-color: #6a8797; */
+  height: 100vh;
+}
+.robotip {
+  margin-top: -7%;
+  padding-left: -5%;
+}
+.systemlanguage{
+  padding-top: 5%;
+  padding-left:-2%;
+}
+.language{
+backface-visibility: hidden;
+background-color: #1f665f;
+border-radius: 6px;
+border-width: 0;
+box-shadow: rgba(50, 93, 68, 0.1) 0 0 0 1px inset,
+  rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+  Ubuntu, sans-serif;
+font-size: 50%;
+height: 60px;
+line-height: 1.15;
+margin: 12px 0 0;
+outline: none;
+overflow: hidden;
+padding: 0 25px;
+position: relative;
+text-align: center;
+text-transform: none;
+transform: translateZ(0);
+transition: all 0.2s, box-shadow 0.08s ease-in;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+width: 70%;
+position: relative;
+left: 14%;
+margin-top: 3%;
+}
+.select{
+  backface-visibility: hidden;
+background-color: #1f665f;
+border-radius: 6px;
+border-width: 0;
+box-shadow: rgba(50, 93, 68, 0.1) 0 0 0 1px inset,
+  rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+  Ubuntu, sans-serif;
+font-size: 50%;
+height: 60px;
+line-height: 1.15;
+margin: 12px 0 0;
+outline: none;
+overflow: hidden;
+padding: 0 25px;
+position: relative;
+text-align: center;
+text-transform: none;
+transform: translateZ(0);
+transition: all 0.2s, box-shadow 0.08s ease-in;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+width: 50%;
+font-size: large;
+margin-left: 50%;
+position: relative;
+top:-52%;
+}
+.label2{
+  position: relative;
+  left:-45%;
+  top:35%;
+  font-size: large;
+}
+.butonrobotip {
+  backface-visibility: hidden;
+  background-color: #1f665f;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 93, 68, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 50%;
+  height: 60px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 70%;
+  font-size: large;
+  margin-top: 10%;
+  margin-left: 14%;
+}
+.butonchangepassword {
+  backface-visibility: hidden;
+  background-color: #1f665f;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 93, 68, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 50%;
+  height: 60px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 70%;
+  font-size: large;
+  margin-top: 3%;
+  margin-left: 14%;
+}
+.butonrobotip:focus {
+  box-shadow: rgba(9, 105, 68, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(9, 74, 36, 0.3) 0 0 0 4px;
+}
+.butonlanguage:focus {
+  box-shadow: rgba(9, 105, 68, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(9, 74, 36, 0.3) 0 0 0 4px;
+}
+.butonchangepassword:focus {
+  box-shadow: rgba(9, 105, 68, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(9, 74, 36, 0.3) 0 0 0 4px;
+}
+#button3{
+  background-color: #e44343;
+  margin-left: 55%;
+}
+#button4{
+  background-color: #2e6bbb;
+  margin-left: 69%;
+  margin-top:-13.5%;
+}
+
+
+
+

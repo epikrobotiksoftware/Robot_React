@@ -1,0 +1,45 @@
+.rbt_param-prm_screen{
+    width: 100vw;
+ 
+}
+.title2{
+    display: flex;
+    justify-content:space-between;
+    background-color: #376E75;
+    color:aliceblue;
+    border-radius: 5px;
+    padding: 2%;
+    /* gap: 22%; */
+    /* position:relative; */
+    /* left:-0.5%; */
+    /* width: 102%; */
+    /* padding: 3%; */
+    /* font-size: 150%; */
+    /* font-weight:normal; */
+    /* border: 2px solid blue; */
+    
+}
+.spa{
+    /* border: 2px solid brown; */
+}
+.action{
+    padding-right: 3%;
+}
+.content{
+    /* height: 100%; */
+    
+}
+.parameters{
+    background-color: #6a8797;
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* position:relative; */
+    /* left:0.4%; */
+    margin-top: 10px;
+    /* font-size: 95%; */
+    /* font-weight: bold; */
+    border-bottom: 1px solid lightgray;
+    opacity: .7;
+    border-radius: 5px;
+    /* height: 5%; */
+  }

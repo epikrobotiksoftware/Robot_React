@@ -1,0 +1,123 @@
+.OnlyJoystick_container{
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 25px auto;
+  flex-wrap: wrap;
+  /* align-items: center; */
+
+}
+.OnlyJoystick {
+  /* border: 2px solid red; */
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  /* margin: 25px auto; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  
+}
+ #connect_out {
+    background-color: rgb(32, 2, 2);
+     /* border-left: 3px solid rgb(120, 120, 120); */
+     /* border: 2px solid red;  */
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      display: flex;
+      justify-content: center;
+      height: 50px;
+  }
+  #connect_in {
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    /* background-color: none; */
+    /* border: 2px solid red; */
+    opacity: .9;
+    
+  }
+  
+.OnlyJoystick_joystickAndSpeed {
+  border-bottom: 2px solid lightslategray;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+  border-radius: 10px;
+
+}
+.joystick_radius{
+    opacity: .7;
+    padding: 33px;
+    border: 2px solid rgb(52, 82, 8);
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: all 1s ease-in;
+}
+.speed_Set{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  /* padding-bottom: 20px; */
+  /* margin-right: 140px; */
+  width: 150px;
+  height: 50px;
+}
+.click_container{
+    /* border: 2px solid rgb(255, 71, 255); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.click_container_up{
+    display: flex;
+    gap: 44px;
+}
+.click_container_middle{
+    /* border: 2px solid burlywood; */
+    display: flex;
+    align-items: center;
+    gap: 66px;
+    padding-top: 23px;
+    
+}
+.click_container_down{
+    display: flex;
+    padding-top: 33px;
+}
+.OnlyJoystick_back_logout {
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.button-back-log {
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.robotState_container{
+  /* border: 2px solid red; */
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}

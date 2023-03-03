@@ -1,0 +1,103 @@
+.allButton{
+  display: flex;
+  flex-direction: column;
+}
+.twoButton{
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.deletebutton{
+  background-color: #0b4686;
+  color:white;
+  transition-duration: 0.4s;
+  /* float: left; */
+  /* margin-top:-20%; */
+  /* margin-left:25%; */
+  width: 200px;
+  height: 35px;
+  /* height:55px; */
+  border-radius: 10px;
+  /* border: 2px solid blueviolet; */
+  border: none;
+  margin-top: 20px;
+  
+}
+.deletebutton:focus{
+background-color: #2c7caa;
+/* color: red; */
+}
+.cancelbutton{
+  background-color: #0b4686;
+  color:white;
+  transition-duration: 0.4s;
+  /* float: left; */
+  /* margin-top:-20%; */
+  /* margin-left:25%; */
+ 
+  /* height:55px; */
+  border-radius: 10px;
+  /* border: 2px solid blueviolet; */
+  border: none;
+  margin-top: 20px;
+  width: 200px;
+  height: 35px;
+  
+    
+  }
+.cancelbutton:focus{
+background-color: #2c7caa;
+color: white;
+
+}  
+.responsive{
+  display: flex;
+  align-items:center;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+}
+.button{
+    background-color: #2c7caa;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 12px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius:30px;
+    
+  }
+  .button:hover{
+    /* border-right: 4px solid white; */
+    background: #c6cfb4;
+    transition: 0.1s cubic-bezier(0.1, 0.7, 1, 0.1);
+    /* border-radius: 0 50px; */
+    color: rgb(0, 65, 95);
+    cursor: pointer;
+  }
+  .showCancelButton{
+    background-color: #2c7caa;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 12px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius:30px;
+    
+
+  }
+  .showCancelButton:hover{
+background-color: red;
+scale: 1.2;
+  }

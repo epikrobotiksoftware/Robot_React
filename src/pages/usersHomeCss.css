@@ -1,0 +1,47 @@
+
+ #createUser {
+  margin-top: 3%;
+  width: 120px;
+  background-color:aquamarine;
+  color: blue;
+  border-radius: 5px;
+}
+#table {
+    border: solid 2px #282c34;
+    margin-top: 4%;
+    text-align: center;
+  }
+#editButton {
+    margin: 4%;
+    background-color:aquamarine;
+    color: black;
+    border-radius: 5px;
+  }
+#deleteButton{
+  background-color:aquamarine;
+  color: black;
+  border-radius: 5px;
+
+}
+#table th {
+    background-color: #daf7ee;
+    border: 2px solid;
+    width: 300px;
+  }
+#table tr {
+    background-color: #ffffff;
+    border: 2px solid gray;
+  }
+@media screen and (max-width:1052px) 
+{
+  .allUsers{
+    margin-left: 70px;
+   }
+
+
+ }
+ 
+  
+
+  
+  

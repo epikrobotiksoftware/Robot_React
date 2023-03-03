@@ -1,0 +1,81 @@
+.mappingScreen_all_container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+
+
+.mappingScreen_toolbar_container {
+  display: flex;
+  justify-content:flex-start;
+  /* gap: 3px; */
+  /* align-items: center; */
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 60px;
+  width:100vw;
+  /* border-bottom: 2px solid rgb(12, 6, 6); */
+  /* border-radius: 10px; */
+}
+
+.navbar-item {
+  color: #444444;
+  font-size: 14px;
+  /* font-weight: 500; */
+  text-decoration: none;
+  padding: 7px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-right: 2px solid rgb(219, 211, 211);
+  width: 150px;
+  height: 60px;
+   /* border-radius: 10px; */
+  
+}
+
+.navbar-item.active {
+  color: white;
+  background-color: rgb(70, 190, 190);
+}
+.navbar-item_pause{
+   color: #f1eeee;
+  font-size: 14px;
+  /* font-weight: 500; */
+  text-decoration: none;
+  padding: 7px;
+  border: none;
+  /* background: transparent; */
+  cursor: pointer;
+  border-right: 2px solid rgb(219, 211, 211);
+  width: 150px;
+  height: 60px;
+  background-color: rgb(255, 0, 21);
+   /* border-radius: 10px; */
+}
+.navbar-item_pause.active_pause {
+  color: #0088CC;
+  background-color: rgb(255, 0, 21);
+}
+
+.navbar-item:hover {
+  color: #0088CC;
+}
+
+.toolbar_canvas{
+  /* border: 2px solid red; */
+  background-color: #FFFFFF;
+}
+
+#toolbar_map{
+  /* background-color: yellow; */
+  /* border: 2px solid aqua; */
+  width: 100vw;
+  /* height: 100vh; */
+}
+.toolbar_icons{
+color: rgb(17, 129, 233);
+/* border: 2px solid red; */
+margin-left: 15px;
+margin-bottom: 3px;
+}

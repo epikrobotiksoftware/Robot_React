@@ -1,0 +1,193 @@
+  .defDash{
+  
+  /* height: 100vh;  */
+  }
+  .sideAndDash {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 250px;
+    transition: .5s;
+    padding-top: 30px;
+    /* width: calc(250px); */
+    /* border:2px solid yellow; */
+    /* height: 100vh; */
+  }
+  .onlyDash{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px; 
+    padding-top: 30px;
+    margin-left: 50px;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* margin-left: 10px;  */
+    /* background-color: #6a8797; */
+     /* padding-top: 20px; */
+  }
+  .robot{
+    overflow: hidden;
+    margin-top:40px;
+    width: 350px;
+    height:600px;
+    border: 1px solid #2a3336;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 13px;
+    /* padding: 50px; */
+      /* margin-left:2%; */
+    /* float: left; */
+    /* border: 2px solid blue */
+  
+  }
+  .lineHorizontal{
+    border:2px solid #2a3336;
+    border-radius:3px;
+    height: 500px;
+    margin-top:4%;
+    margin-left: 6px;
+  }
+  
+  .lineVertical{
+    display: flex;
+    width: 1000px;
+    border:5px solid #2a3336;
+    border-radius:3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    overflow: hidden;
+    /* float: left; */
+    /* display: block; */
+  }
+  .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    /* border: 2px solid black;
+    border-radius: 13px; */
+    /* padding-top:10px; */
+    /* float: left; */
+    /* width: 50%;
+    height:70%; */
+    /* margin-left:26%; */
+    /* border:solid 2px yellow */
+    /* border-top: 3px solid #2a3336; */
+    
+    /* border:2px solid red; */
+   }
+   .api_map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   }
+   .paramScreenMarkerPos{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin-top:40px;
+    width: 300px;
+    height:600px; 
+    border: 1px solid #2a3336;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 13px;
+    /* margin-left:2%; */
+    /* float: left; */
+    /* padding:0.5%; */
+    /* border-radius: 30px; */
+    /* border: 2px solid red; */
+    overflow-y: scroll;
+    scrollbar-base-color: #3e60;
+  }
+.paramScreenMarkerPos::-webkit-scrollbar {
+    width: 10px;
+    background-color: #55AAEB;
+    /* border-left: 1px solid rgb(47, 13, 202); */
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+   /* @media screen and (max-width:790px) 
+   {
+    .map{
+      display: none;
+      height: 100vh;
+
+    }
+    .uppanel{
+      height: 100vh;
+      padding-top: 15px;
+
+    }
+
+  } */
+
+   /* @media screen and (max-width: 1460px) 
+   {
+    .uppanel {
+      padding-left: 50px;
+      margin-right: 80px;
+      
+    }
+    .lineVertical {
+      display: none;
+    }
+    .lineHorizontal{
+      display: none;
+    }
+    .map{
+      padding-left: 75px;
+
+    }
+
+  }
+  @media screen and (min-width: 1660px) {
+    .robot {
+      width: 600px;
+      
+      
+    }
+    .paramScreenMarkerPos{
+      width: 600px;
+    }
+
+     .lineVertical {
+      display: none;
+    }
+    .lineHorizontal{
+      display: none;
+    }
+
+
+  }
+  @media screen and (min-width: 2118px) {
+    .robot {
+      width: 800px;
+      
+      
+    }
+    .paramScreenMarkerPos{
+      width: 800px;
+    }
+    .map{
+      margin-left:70px;
+      width: 2000px;
+      
+
+    }
+    .lineVertical {
+      display: none;
+    }
+    .lineHorizontal{
+      display: none;
+    }
+
+
+  } */

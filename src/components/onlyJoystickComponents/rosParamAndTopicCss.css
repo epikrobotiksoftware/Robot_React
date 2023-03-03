@@ -1,0 +1,68 @@
+.RosParamAndTopic_container {
+  /* border: 2px solid red; */
+  width: 670px;
+  display: flex;
+  flex-direction: column;
+  /* margin: 25px auto; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  gap: 10px;
+  
+}
+
+.rosparamAndTopic_button{
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  /* margin: 5px; */
+ padding: 0px 25px; 
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 40px;
+}
+.rosparamAndTopic_button_setget{
+    background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin:27px 5px;
+ padding: 0px 25px; 
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 40px;
+
+}
+.rosparamAndTopic_button_result{
+  /* background-image: linear-gradient(#2f636b, #0d70ea); */
+border: none;
+height: 40px;
+  border-bottom: 2px solid rgb(66, 51, 51);
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+
+ border-radius: 4px;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin:27px 5px;
+  /* padding: 10px 30px; */
+  /* text-align: center; */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}

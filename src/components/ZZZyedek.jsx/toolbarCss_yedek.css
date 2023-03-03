@@ -1,0 +1,42 @@
+.mappingScreen_toolbar_container {
+  display: flex;
+  justify-content:flex-start;
+  /* gap: 3px; */
+  /* align-items: center; */
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 60px;
+  width: 100vw;
+  border: 2px solid brown;
+  /* border-radius: 10px; */
+}
+
+.navbar-item {
+  color: #444444;
+  font-size: 14px;
+  /* font-weight: 500; */
+  text-decoration: none;
+  padding: 7px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-right: 2px solid rgb(219, 211, 211);
+  width: 150px;
+  height: 60px;
+   /* border-radius: 10px; */
+  
+}
+
+.navbar-item.active {
+  color: #0088CC;
+  background-color: aqua;
+}
+
+.navbar-item:hover {
+  color: #0088CC;
+}
+
+.toolbar_canvas{
+  border: 2px solid red;
+  background-color: #FFFFFF;
+}

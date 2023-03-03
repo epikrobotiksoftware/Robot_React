@@ -1,0 +1,13 @@
+.robotParamOpen{
+  padding-top: 54px;
+  margin-left: 250px;
+  transition: margin-left .8s;
+}
+.robotParamClose{
+  padding-top: 54px;
+  margin-left: 61px;
+}
+.paramScreen{
+  padding-top: 30px;
+}
+
